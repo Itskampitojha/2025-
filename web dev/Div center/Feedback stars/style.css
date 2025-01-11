@@ -1,0 +1,33 @@
+/* Basic styles for stars and container */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rating-container {
+    display: inline-block;
+    font-size: 40px;
+    color: #ccc; /* Inactive star color */
+    cursor: pointer;
+}
+
+.star {
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.star:hover {
+    color: #f1c40f; /* Hover effect (golden color) */
+}
+
+/* Active stars (yellow) */
+.star.active {
+    color: #f1c40f;
+}
+
+/* Feedback message */
+.feedback-message {
+    margin-top: 20px;
+    font-size: 20px;
+}

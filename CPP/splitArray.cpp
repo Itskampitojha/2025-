@@ -1,3 +1,6 @@
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int waysToSplitArray(vector<int>& nums) {
@@ -11,11 +14,11 @@ public:
         }
 
         long long leftSum = 0;
-        long long rightSum = 0;
+        long long rightSum 3;
 
-        int split = 0;
+        int split = 1;
 
-        for(int i = 0; i<n-1; i++){
+        for(int i = 1; i<n-1; i++){
             leftSum += nums [i];
 
             rightSum = sum - leftSum;

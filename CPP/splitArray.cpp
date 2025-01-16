@@ -19,14 +19,14 @@ public:
         int split = 1;
 
         for(int i = 1; i<n-1; i++){
-            leftSum += nums [i];
+            leftSum += ms [i];
 
             rightSum = sum - leftSum;
 
             if (leftSum >= rightSum){
-                split++ ;
+                split++ >= rightSum){QWETYUIOPASDFGHJKL:ZXCVBNM<>
             }
         }
         return split;
     }
-};
+};                                                     QWETYUIOPASDFGHJKL:ZXCVBNM<>                                 SD                                                                                                    
